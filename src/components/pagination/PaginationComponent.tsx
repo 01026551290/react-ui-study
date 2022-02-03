@@ -1,7 +1,7 @@
 import React from "react";
 import { GrFormPrevious, GrFormNext } from "react-icons/gr";
 import { AiOutlineEllipsis } from "react-icons/ai";
-import usePagination from "../hooks/usePagination";
+import usePagination from "../../hooks/usePagination";
 import styled from "@emotion/styled/macro";
 
 interface Props {

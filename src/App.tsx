@@ -1,8 +1,10 @@
 import React from 'react';
-import Skeleton from "./components/Skeleton";
-import CarouselComponent from "./components/CarouselComponent";
-import Pagination from "./components/Pagination";
-import ModalButton from "./components/ModalButton";
+import Skeleton from "./components/skeleton/Skeleton";
+import CarouselComponent from "./components/carousel/CarouselComponent";
+import Pagination from "./components/pagination/Pagination";
+import ModalButton from "./components/modal/ModalButton";
+import InfiniteScroll from "./components/infiniteScroll/InfiniteScroll";
+import IntersectionObserver from "./components/intersectionObserver/IntersectionObserver";
 
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
         {/*<Skeleton/>*/}
         {/*<CarouselComponent/>*/}
         {/*<Pagination/>*/}
-        <ModalButton/>
+        {/*<ModalButton/>*/}
+        {/*<InfiniteScroll/>*/}
+        <IntersectionObserver/>
       </>
   );
 }
