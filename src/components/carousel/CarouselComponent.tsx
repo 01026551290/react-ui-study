@@ -108,7 +108,7 @@ const Carousel: React.FC = () => {
                         {
                             banners.map((banner, idx) =>(
                                 <CarouselListItem activeIndex={activeIndex} key={idx}>
-                                    <img src={banner}/>
+                                    <img src={banner} alt={`${idx}//${banner}`}/>
                                 </CarouselListItem>
                             ))
                         }
